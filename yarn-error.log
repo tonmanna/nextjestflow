@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\TonmanPC\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\TonmanPC\bin;C:\Users\TonmanPC\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\usr\bin;C:\Cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Cmder\vendor\conemu-maximus5;C:\Cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Boxstarter;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\OpenVPN\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\dotnet;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\ProgramData\chocolatey\bin;C:\Users\TonmanPC\AppData\Local\Programs\Python\Python36-32;C:\Users\TonmanPC\AppData\Local\Programs\Python\Python36-32\Scripts;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\erl10.3\bin;C:\Program Files (x86)\Elixir\bin;C:\WINDOWS\system32\config\systemprofile\.mix\escripts;C:\Program Files (x86)\Elm\0.19.1\bin;C:\Users\TonmanPC\.cargo\bin;C:\Users\TonmanPC\AppData\Local\Microsoft\WindowsApps;C:\Users\TonmanPC\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\TonmanPC\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\TonmanPC\AppData\Roaming\npm;C:\Users\TonmanPC\.dotnet\tools;C:\Users\TonmanPC\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.2.1
+
+Node version: 
+  10.16.2
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "with-jest-flow",
+    "version": "1.0.0",
+    "scripts": {
+      "test": "jest",
+      "dev": "next",
+      "build": "next build",
+      "flow": "flow",
+      "start": "next start"
+    },
+    "dependencies": {
+      "next": "latest",
+      "react": "latest",
+      "react-dom": "latest",
+      "@zeit/next-less": "latest"
+    },
+    "devDependencies": {
+      "@babel/core": "latest",
+      "babel-eslint": "latest",
+      "babel-jest": "latest",
+      "babel-plugin-transform-flow-strip-types": "latest",
+      "enzyme": "latest",
+      "enzyme-adapter-react-16": "latest",
+      "eslint": "latest",
+      "flow-bin": "latest",
+      "jest": "latest",
+      "react-addons-test-utils": "latest",
+      "react-test-renderer": "latest",
+      "less": "^3.10.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Lab\with-jest-flow\node_modules\flow-bin\flow-win64-v0.111.3\flow.exe'
